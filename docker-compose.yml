@@ -1,0 +1,7 @@
+services:
+  travel-bot:
+    build: .
+    ports:
+      - "8505:8501"
+    env_file:
+      - .env
